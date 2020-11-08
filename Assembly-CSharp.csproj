@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\02.Scripts\GearManager.cs" />
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\DisplayData.cs" />
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\PreserveOnReload.cs" />
     <Compile Include="Assets\NeuroSkyAssets\NeuroSkyScripts\ThinkGearController.cs" />

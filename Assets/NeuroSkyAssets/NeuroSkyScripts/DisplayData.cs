@@ -78,19 +78,13 @@ public class DisplayData : MonoBehaviour {
         controller.Algo_UpdateBetaEvent += OnAlgo_UpdateBetaEvent;
         controller.Algo_UpdateGammaEvent += OnAlgo_UpdateGammaEvent;
 
-
-
-
-    deviceList = new ArrayList();
+		deviceList = new ArrayList();
 		displayedStrArr = new ArrayList();
 		rectX = Screen.width / 10;
 		rectY = Screen.height / 3;
 		rectWidth = Screen.width * 8 / 10;
-		rectHeight = Screen.height / 4;
-			
-		
+		rectHeight = Screen.height / 4;		
 	}
-
     void OnAlgo_UpdateAttentionEvent(int value)
     {
         Algo_Attention = value;
@@ -100,7 +94,6 @@ public class DisplayData : MonoBehaviour {
         Algo_Meditation = value;
 
     }
-
     void OnAlgo_UpdateDeltaEvent(float value)
     {
         Algo_Delta = value;
@@ -220,8 +213,7 @@ public class DisplayData : MonoBehaviour {
 				indexSignalIcons = 2;
 			}
 			indexSignalIcons += animationInterval;
-		}
-		
+		}	
 	}
 	
 	void OnGUI(){
