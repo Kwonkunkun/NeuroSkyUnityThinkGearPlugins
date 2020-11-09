@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xxxhdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\layout___arcore_education.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\99b2a6829a1940c3a976667ab98a3bad\\res\\layout\\__arcore_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\unity-android-resources\\build\\intermediates\\packaged_res\\debug\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-hdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_banner.png.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\raw_keep_arcore.xml.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\99b2a6829a1940c3a976667ab98a3bad\\res\\raw\\keep_arcore.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xxxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xhdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-mdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xxhdpi-v4\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\b018ea221da4264a6d9871715fb26a18\\res\\mipmap-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\unity-android-resources\\build\\intermediates\\packaged_res\\debug\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\user\\Documents\\GitHub\\NeuroSkyUnityThinkGearPlugins\\Temp\\gradleOut\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    }
+]

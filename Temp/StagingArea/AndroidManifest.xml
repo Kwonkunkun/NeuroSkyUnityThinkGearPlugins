@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.yourcompany.yourappname" android:versionCode="1" android:versionName="1.0" android:installLocation="preferExternal">
-  <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="29" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="com.yourcompany.yourappname" android:installLocation="preferExternal">
   <uses-permission android:name="android.permission.BLUETOOTH" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:debuggable="true" android:isGame="true" android:banner="@drawable/app_banner">
+  <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="true" tools:replace="android:icon" android:isGame="true" android:banner="@drawable/app_banner">
     <activity android:name="com.neurosky.mindgame.UnityThinkGear" android:screenOrientation="fullSensor" android:launchMode="singleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:hardwareAccelerated="false">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
@@ -14,12 +12,16 @@
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>
-    <meta-data android:name="unity.build-id" android:value="9a1e5add-9ad4-4a90-8dfe-5d2eb8057c20" />
+    <meta-data android:name="unity.tango-enable" android:value="True" />
+    <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true" />
+    <meta-data android:name="unity.build-id" android:value="26bdbf59-997e-4692-8c2c-ac4a1d0da3c9" />
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="True" />
   </application>
   <uses-feature android:glEsVersion="0x00020000" />
+  <uses-permission android:name="android.permission.CAMERA" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="18" />
   <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
   <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
