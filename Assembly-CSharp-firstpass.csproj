@@ -64,9 +64,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\UnityThinkGear.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\(can be deleted) Example Scene\RadialBarController.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\BindingHelper.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\EditorResourcesHolderSO.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\Extension.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\FramesArray.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\MeshSequenceInfo.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\ObjData.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\PointCacheData.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\ProjectionSamples.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\SmoothCurveGraphTexture.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\Common\VertexAnimationToolsAssetBase.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\MeshSequence.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\MeshSequencePlayer.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\PointCache.cs" />
+    <Compile Include="Assets\Plugins\VertexAnimationTools_30\Scripts\PointCachePlayer.cs" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\VertexAnimationTools_30\Shaders\UnlitVertexColorAOTransparent.shader" />
     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+    <None Include="Assets\Plugins\VertexAnimationTools_30\Shaders\UnlitVertexColorAO.shader" />
     <None Include="Assets\Plugins\Android\res\layout\main.xml" />
+    <None Include="Assets\Plugins\VertexAnimationTools_30\Shaders\LitVertexColorAO.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/user/Documents/GitHub/NeuroSkyUnityThinkGearPlugins/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -283,11 +301,11 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.23f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/user/Documents/GitHub/NeuroSkyUnityThinkGearPlugins/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>C:/Users/user/Documents/GitHub/NeuroSkyUnityThinkGearPlugins/Assets/GoogleARCore/SDK/Plugins/Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>C:/Users/user/Documents/GitHub/NeuroSkyUnityThinkGearPlugins/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.23f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

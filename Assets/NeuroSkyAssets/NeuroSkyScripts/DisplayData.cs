@@ -2,8 +2,37 @@ using UnityEngine;
 using System.Collections;
 
 public class DisplayData : MonoBehaviour {
-	
-	public Texture2D[] signalIcons;
+
+    #region 싱글톤
+    private static DisplayData m_instance; // 싱글톤이 할당될 static 변수
+
+	public static DisplayData instance
+	{
+		get
+		{
+			// 만약 싱글톤 변수에 아직 오브젝트가 할당되지 않았다면
+			if (m_instance == null)
+			{
+				// 씬에서 GameManager 오브젝트를 찾아 할당
+				m_instance = FindObjectOfType<DisplayData>();
+			}
+
+			// 싱글톤 오브젝트를 반환
+			return m_instance;
+		}
+	}
+	private void Awake()
+	{
+		// 씬에 싱글톤 오브젝트가 된 다른 GameManager 오브젝트가 있다면
+		if (instance != this)
+		{
+			// 자신을 파괴
+			Destroy(gameObject);
+		}
+	}
+    #endregion
+
+    public Texture2D[] signalIcons;
 	
 	private float indexSignalIcons = 1;
 	private bool enableAnimation = false;
@@ -14,7 +43,7 @@ public class DisplayData : MonoBehaviour {
 	private int Raw = 0;
 	private int PoorSignal = 200;
 	private int Attention = 0;
-	private int Meditation = 0;
+	public int Meditation = 0;
 	private int Blink = 0;
 	private float Delta = 0.0f;
 	private float Theta = 0.0f;

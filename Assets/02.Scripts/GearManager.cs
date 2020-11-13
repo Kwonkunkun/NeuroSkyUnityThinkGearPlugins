@@ -5,6 +5,39 @@ using UnityEngine.UI;
 
 public class GearManager : MonoBehaviour
 {
+	#region 싱글톤
+
+	private static GearManager m_instance; // 싱글톤이 할당될 static 변수
+	public bool isGameover { get; private set; } // 게임 오버 상태
+	public int hp = 5;
+
+	public static GearManager instance
+	{
+		get
+		{
+			// 만약 싱글톤 변수에 아직 오브젝트가 할당되지 않았다면
+			if (m_instance == null)
+			{
+				// 씬에서 GameManager 오브젝트를 찾아 할당
+				m_instance = FindObjectOfType<GearManager>();
+			}
+
+			// 싱글톤 오브젝트를 반환
+			return m_instance;
+		}
+	}
+	private void Awake()
+	{
+		// 씬에 싱글톤 오브젝트가 된 다른 GameManager 오브젝트가 있다면
+		if (instance != this)
+		{
+			// 자신을 파괴
+			Destroy(gameObject);
+		}
+	}
+
+	#endregion
+
 	public Text testTxt;
 	public Texture2D[] signalIcons;
 	ThinkGearController controller;
