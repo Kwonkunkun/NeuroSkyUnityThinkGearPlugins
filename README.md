@@ -1,3 +1,6 @@
+# 안드로이드 빌드 세팅 해놓은 프로젝트
+
+
 # NeuroSkyUnityThinkGearPlugins
 A plugins for Unity to create Android and iOS app and communicate with NeuroSky MindWave Device
 
